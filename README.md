@@ -8,4 +8,4 @@ Segundo exemplo
 
 Terceiro exemplo
 
-Quarto exemplo
+Quarto exemplo.
