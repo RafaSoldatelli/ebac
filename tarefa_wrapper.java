@@ -6,7 +6,7 @@ public class tarefa_wrapper {
         int num1 = 1000000;
         System.out.println(num1);
 
-        int num2 = (short) num1;
+        Integer num2 = num1;
         System.out.println(num2);
     }
 }
