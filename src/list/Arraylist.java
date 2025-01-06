@@ -20,6 +20,15 @@ public class Arraylist {
         lista.add("Lúcia Ferreira");
         System.out.println(lista);
         System.out.println("");
+
+        lista.remove(0);
+        System.out.println(lista);
+
+        boolean contem = lista.contains("João da Silva");
+        System.out.println(contem);
+
+        System.out.println(lista.get(0));
+       
     }
 
     private static void exemploListaSimplesOrdemAscendente() {
