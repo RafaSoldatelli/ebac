@@ -1,14 +1,8 @@
 package switchcase;
 
-import java.util.Scanner;
-
 public class exemplo1 {
     public static void main(String args[]) {
-        Scanner s = new Scanner(System.in);
-
         System.out.println("Digite a sua idade: ");
-        int idade = s.nextInt();
-        String idadeSt = getIdade(idade);
     }
 
     public static String getIdade(int idade) {

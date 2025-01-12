@@ -10,8 +10,33 @@ import java.util.Set;
 public class ExemploHasSetAluno {
     
     public static void main(String[] args) {
+        exemploRemover();
         exemploConsultando();
         exemploListaSimples();
+    }
+
+    private static void exemploRemover(){
+        System.out.println("**** exemploRemover ****");
+        Set<Aluno> conjunto = new HashSet<Aluno>();
+
+        Aluno a = new Aluno("João da Silva", "Linux básico", 0);
+        Aluno b = new Aluno("Antônio Sousa", "OpenOffice", 0);
+        Aluno c = new Aluno("Lúcia Ferreira", "Internet", 0);
+        Aluno d = new Aluno("Antônio Sousa", "OpenOffice", 0);
+        
+        conjunto.add(a);
+        conjunto.add(b);
+        conjunto.add(c);
+        conjunto.add(d);
+
+        conjunto.remove(a);
+
+        System.out.println(conjunto);  
+        System.out.println("");
+
+        for (Aluno aluno : conjunto) {
+            System.out.println(aluno);
+         }
     }
 
     private static void exemploConsultando() {
@@ -31,6 +56,8 @@ public class ExemploHasSetAluno {
 
         System.out.println(conjunto.contains(e));
         System.out.println("");
+
+        
     }
 
     /**
@@ -45,6 +72,7 @@ public class ExemploHasSetAluno {
         Aluno b = new Aluno("Antônio Sousa", "OpenOffice", 0);
         Aluno c = new Aluno("Lúcia Ferreira", "Internet", 0);
         Aluno d = new Aluno("Antônio Sousa", "OpenOffice", 10);
+        Aluno e = new Aluno("teste", "Edge", 0);
         
         conjunto.add(a);
         conjunto.add(b);

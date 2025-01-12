@@ -1,6 +1,6 @@
 package set;
 
-public class Aluno {
+public class Aluno implements Comparable<Aluno> {
     private String nome;
     private String curso;
     private float nota;
@@ -50,6 +50,7 @@ public class Aluno {
         result = prime * result + Float.floatToIntBits(nota);
         return result;
     }
+    
 
     @Override
     public boolean equals(Object obj) {
@@ -73,6 +74,11 @@ public class Aluno {
         if (Float.floatToIntBits(nota) != Float.floatToIntBits(other.nota))
             return false;
         return true;
+    }
+
+    @Override
+    public int compareTo(Aluno nome) {
+        return this.nome.compareTo(nome.nome);
     }
 
 }
