@@ -96,6 +96,14 @@ public class ExemploHashMap {
         for (Map.Entry<Integer, String> entry1 : lista.entrySet()) {
             System.out.println("Chave: " + entry1.getKey());
             System.out.println("valor: " + entry1.getValue());
+
+        System.out.println("** iterator 2 **");
+        Iterator<Map.Entry<Integer, String>> it = lista.entrySet().iterator();
+            while(it.hasNext()) {
+                Map.Entry<Integer, String> entry2 = it.next();
+                System.out.println("Chave: " + entry2.getKey());
+                System.out.println("Valor: " + entry2.getValue());
+            }
         }
     }
 }
