@@ -2,7 +2,9 @@ package interfaces;
 
 public class ClasseTeste {
 
+
     public static void main(String args[]) {
+
         ICaneta caneta = new CanetaEsferografica();
         caneta.escrever("Olá Rafael");
         caneta.escreverComumATodas();

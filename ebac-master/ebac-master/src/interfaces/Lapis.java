@@ -6,6 +6,7 @@ public class Lapis implements ICaneta{
         System.out.println("Escrevendo o valor " + texto + " na classe " + getClass().getSimpleName());
     }
 
+
     @Override
     public String getCor() {
         return "Preta";
