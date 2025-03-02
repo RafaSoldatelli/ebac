@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="atividades">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ebac-master/src/atividades/splitAtividade.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ebac-master/src/atividades/colecoesParte2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ebac-master/src/atividades/notasAlunos.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
